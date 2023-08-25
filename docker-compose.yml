@@ -15,7 +15,7 @@ services:
       - mysql
 
   mysql:
-    image: twotier-app:latest
+    image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: your_root_password
       MYSQL_DATABASE: your_database
